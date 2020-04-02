@@ -1,0 +1,4 @@
+package / modulos
+
+Flask
+PyMySql
