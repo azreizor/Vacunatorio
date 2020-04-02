@@ -1,3 +1,8 @@
+# Alumno: Hector Mellado Garrido 
+# Proyecto Vacunatorio 
+
+
+
 import pymysql
 from time import localtime
 from flask import Flask, render_template, request, redirect, url_for
