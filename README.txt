@@ -9,8 +9,15 @@ en la consola escribir:
 	-git clone https://github.com/azreizor/Vacunatorio
 
 dirigirse a la carpeta del proyecto por consola y escribir el siguiente comando:
+	
+	py -m install --upgrade pip
 
 	pip install -r requirements.txt
+
+	pip install flask
+	pip install pymysql
+	luego en una powershell escribir el comando de instalacion de chocolatey
+	escribir choco install mariadb
 	
 una vez instalado lo necesario, buscar en el ordenador un programa llamado HeidiSQL, que fue instalado junto con mariadb
 y en este programa importaremos un archivo SQL (SQL Vacunatorio.sql) con nuestra base de datos. 
